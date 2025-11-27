@@ -1,5 +1,5 @@
 # Dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -8,8 +8,18 @@
 /coverage
 
 # Next.js
-/.next/
+.next/
 /out/
+
+# Frontend specific
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Backend specific  
+backend/node_modules/
+backend/dist/
+backend/build/
 
 # Production
 /build
